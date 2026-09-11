@@ -12,7 +12,7 @@ function dailyLog168() {
   );
 
   const bestResult = results.reduce((best, result) =>
-    result.score > best.score ? result : best
+    result.score > best.score ? result : bes
   );
 
   const report = {
